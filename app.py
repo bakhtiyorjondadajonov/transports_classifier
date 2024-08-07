@@ -4,7 +4,7 @@ import pathlib
 import plotly.express as px
 import matplotlib.pyplot as plt
 temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+pathlib.PosixPath = temp
 # Create title
 st.markdown(
     """
